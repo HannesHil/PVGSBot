@@ -1,3 +1,5 @@
 # Bot configurations
 telegram:
   bottoken: ""
+bot:
+  restbaseurl: ""
