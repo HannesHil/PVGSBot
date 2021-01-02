@@ -2,7 +2,6 @@ package main
 
 import (
 	"encoding/json"
-	"fmt"
 	"io/ioutil"
 	"log"
 	"net/http"
@@ -33,7 +32,6 @@ func getDepartuesForStop(baseURL string, stationID Stop) []map[string]interface{
 		if err2 != nil {
 			log.Print(err2)
 		}
-		fmt.Print((mapStructure))
 		return mapStructure
 	}
 	return mapStructure

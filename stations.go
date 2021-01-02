@@ -18,7 +18,6 @@ type Stop struct {
 var stopMap map[string]Stop
 
 func loadStations() {
-
 	csvfile, err := os.Open("PVGSStops.txt")
 	if err != nil {
 		log.Fatalln("Couldn't open the csv file", err)
